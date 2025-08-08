@@ -20,7 +20,7 @@ on:
   schedule:
     - cron: "30 1 * * 6"    # Weekly on Saturdays
   push:
-    branches: [ $default-branch ]
+    branches: [ "alauda-1.9" ]
 
 permissions: read-all
 

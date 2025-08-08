@@ -93,7 +93,7 @@
     <repository>
       <id>github</id>
       <name>GitHub Packages</name>
-      <url>https://maven.pkg.github.com/apache/commons-beanutils</url>
+      <url>https://maven.pkg.github.com/alauda/commons-beanutils</url>
     </repository>
   </distributionManagement>
 
