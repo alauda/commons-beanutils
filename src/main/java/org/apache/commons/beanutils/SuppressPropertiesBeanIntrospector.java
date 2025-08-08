@@ -49,9 +49,9 @@ public class SuppressPropertiesBeanIntrospector implements BeanIntrospector {
             new SuppressPropertiesBeanIntrospector(Collections.singleton("class"));
 
     /**
-     * A specialized instance which is configured to suppress the special {@code class} properties of Java beans. Unintended access to the call for
-     * {@code declaringClass} (which is common to all Java {@code enum}) can be a security risk because it also allows access to the class loader. Adding this
-     * instance as {@code BeanIntrospector} to an instance of {@code PropertyUtilsBean} suppresses the {@code class} property; it can then no longer be
+     * A specialized instance which is configured to suppress the special {@code declaringClass} property of Java enums. Unintended access to the
+     * {@code declaringClass} property (which is common to all Java {@code enum}s) can be a security risk because it also allows access to the class loader. Adding this
+     * instance as {@code BeanIntrospector} to an instance of {@code PropertyUtilsBean} suppresses the {@code declaringClass} property; it can then no longer be
      * accessed.
      *
      * @since 1.9.5
