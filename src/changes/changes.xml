@@ -28,6 +28,10 @@
     <title>Release Notes</title>
   </properties>
   <body>
+    <release version="1.9.5" date="2025-08-07" description="The primary reason for this release is a bugfix for
+CVE-2025-48734.">
+    <action type="add" dev="ggregory" due-to="Gary Gregory">Add org.apache.commons.beanutils.SuppressPropertiesBeanIntrospector.SUPPRESS_DECLARING_CLASS.</action>
+    </release>
 
     <release version="1.9.4" date="2019-06-12" description="The primary reason for this release is a bugfix for
 CVE-2014-0114. More specifically, our goal with BEANUTILS-520

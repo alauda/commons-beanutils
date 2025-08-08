@@ -189,6 +189,7 @@ public class PropertyUtilsBean {
         introspectors.clear();
         introspectors.add(DefaultBeanIntrospector.INSTANCE);
         introspectors.add(SuppressPropertiesBeanIntrospector.SUPPRESS_CLASS);
+        introspectors.add(SuppressPropertiesBeanIntrospector.SUPPRESS_DECLARING_CLASS);
     }
 
     /**
@@ -356,7 +357,7 @@ public class PropertyUtilsBean {
      *  access to the property accessor method
      * @throws IllegalArgumentException if <code>bean</code> is null
      * @throws InvocationTargetException if the property accessor method
-     *  throws an exception
+      *  throws an exception
      * @throws NoSuchMethodException if an accessor method for this
      *  propety cannot be found
      */
