@@ -90,6 +90,11 @@
       <name>Apache Commons Beanutils Site</name>
       <url>scm:svn:https://svn.apache.org/repos/infra/websites/production/commons/content/proper/commons-beanutils</url>
     </site>
+    <repository>
+      <id>github</id>
+      <name>GitHub Packages</name>
+      <url>https://maven.pkg.github.com/apache/commons-beanutils</url>
+    </repository>
   </distributionManagement>
 
   <developers>
